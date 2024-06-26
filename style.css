@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+  
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white ;
+}
+
+/* box 1*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    background-image: url(amazon_logo.png);
+    width: 110px;
+    height: 50px;
+    background-size: cover;
+}
+
+/* Box 2 */
+
+.address{
+
+}
+.add1{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 18px;
+}
+.add2{
+    display: flex;
+    color: white;
+}
+.icon{
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/* Box 3 */
+
+.nav-search{
+    display: flex;
+    background-color: #f08804;
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid #f08804 ;
+}
+.search-icon2{
+    display: flex;
+    color: white;
+    width:60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+.search-input{
+    width:100%;
+    font-size: larger;
+    border-right: 2px solid #1a273d;
+    border-radius: 0px;
+    border: none;
+    border-right: 2px solid #686969;
+}
+.search-input:active{
+    border: none;
+}
+.search-select{
+    border-radius: 5px 0px 0px 5px;
+    width: 60px;
+    font:1.5rem;
+    border: none;
+    border-right: 2px solid grey;
+}
+
+/*Box 4*/
+
+/*Box 5 6*/
+
+.sign{
+    color: white;
+}
+.Accounts{
+    display: flex;
+}
+.l1{
+    color: white;
+    font-size: 0.85rem;
+}
+.l2{
+    color: white;
+    font-weight: 600;
+}
+.nav-drop{
+    background-color: #0f1111;
+    color: #cccccc;
+    border: none;
+}
+
+/*box 7*/
+
+.nav-cart{
+    display: flex;
+    color: white;
+    font-size: 1.8rem;
+}
+.nav-cart-text{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/*
+
+
+
+                                                PANEL 
+
+
+
+
+*/
+
+
+.panel{
+    height: 30px;
+    background-color: #242d3b;
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    display: flex;
+    color: white;
+    height: 30px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.95rem;
+}
+.fa-bars{
+    margin-right: 5px;
+}
+.spc-deals{
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+}
+
+
+
+
